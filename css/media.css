@@ -1,0 +1,135 @@
+@media(max-width: 960px) {
+    .slider__inner_min {
+        display: none;
+    }
+}
+
+@media(max-width: 890px) {
+    .footer__item-contact {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 800px) {
+    .content__items {
+        display: block;
+    }
+
+    .content__item {
+        max-width     : 100%;
+        padding-bottom: 50px;
+    }
+
+    .content__title {
+        margin-bottom: 15px;
+    }
+
+    .content__text {
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .content__title_follow::before,
+    .content__title_offer::before,
+    .content__title_check::before {
+        top: -10px;
+    }
+}
+
+@media(max-width: 620px) {
+    .footer__inner {
+        padding: 20px 10px;
+    }
+}
+
+@media(max-width: 600px) {
+    .header__btn {
+        display     : block;
+        margin-right: 10px;
+    }
+
+    .header__menu {
+        display         : none;
+        position        : absolute;
+        top             : 77px;
+        padding-bottom  : 10px;
+        padding-left    : 0;
+        margin          : 0;
+        left            : 0;
+        right           : 0;
+        width           : 100%;
+        z-index         : 1;
+        background-color: #fff;
+    }
+
+    .header__menu-item {
+        display   : block;
+        text-align: center;
+    }
+
+    .header__menu-item+.header__menu-item {
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 580px) {
+    .footer__item {
+        max-width    : 100%;
+        margin-bottom: 20px;
+    }
+
+    .footer__text {
+        margin: 0;
+    }
+
+    .footer__item_subtext {
+        margin: 0;
+    }
+
+    .footer__item_text-link,
+    .footer__item_namber {
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 480px) {
+    .slider__box {
+        bottom   : 0;
+        left     : 0;
+        max-width: 100%;
+    }
+
+    @media(max-width: 440px) {
+        .content__title {
+            font-size: 15px;
+        }
+    }
+
+    @media(max-width: 377px) {
+        .content__title_follow::before {
+            top: 0;
+        }
+    }
+
+    @media(max-width: 357px) {
+        .content__title_offer::before {
+            top: 0;
+        }
+    }
+
+    @media(max-width: 328px) {
+        .content__title_check::before {
+            top: 0;
+        }
+    }
+
+
+
+
+
+
+    @media(min-width: 600px) {
+        .header__menu {
+            display: block !important;
+        }
+    }
